@@ -2,6 +2,7 @@
 
 import PlaceholderImage from './PlaceholderImage';
 import Image from 'next/image';
+import { APP_STORE_URL } from '@/lib/constants';
 
 export default function Hero() {
   return (
@@ -25,18 +26,16 @@ export default function Hero() {
           </p>
           <div className="mt-8 animate-fadeInUp-delay-2">
             <a
-              href="https://testflight.apple.com/join/VfvszCHu"
-              className="group inline-flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-full text-white bg-gradient-to-r from-[#34C759] to-[#2db14e] hover:from-[#2db14e] hover:to-[#28a745] dark:from-[#58D158] dark:to-[#4abb4a] dark:hover:from-[#4abb4a] dark:hover:to-[#3ca842] transition-all duration-300 ease-in-out shadow-lg hover:shadow-xl hover:-translate-y-0.5"
-              style={{ boxShadow: '0 10px 30px rgba(52, 199, 89, 0.3)' }}
+              href={APP_STORE_URL}
+              className="inline-block transition-opacity duration-200 hover:opacity-80"
             >
-              <PlaceholderImage
-                width={24}
-                height={24}
-                text=""
-                isIcon={true}
-                className="mr-2 rounded-full group-hover:scale-110 transition-transform duration-200"
+              <Image
+                src="/images/app-store-badge.svg"
+                alt="Download on the App Store"
+                width={180}
+                height={60}
+                priority
               />
-              Download on Test Flight
             </a>
           </div>
         </div>

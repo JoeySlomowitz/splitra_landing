@@ -23,7 +23,7 @@ export const viewport: Viewport = {
 export const metadata: Metadata = {
   metadataBase: new URL("https://splitra.app"),
   title: "Splitra - AI Receipt Scanner & Bill Splitting App",
-  description: "AI-powered receipt scanner that splits bills instantly. Scan restaurant receipts, assign items to friends, and calculate who owes what in seconds. Download our iOS app on TestFlight.",
+  description: "AI-powered receipt scanner that splits bills instantly. Scan restaurant receipts, assign items to friends, and calculate who owes what in seconds. Download our iOS app on the App Store.",
   keywords: [
     "AI receipt scanner",
     "bill splitting app",
@@ -55,7 +55,7 @@ export const metadata: Metadata = {
     locale: "en_US",
     url: "https://splitra.app",
     title: "Splitra - AI Receipt Scanner & Bill Splitting App",
-    description: "AI-powered receipt scanner that splits bills instantly. Join our iOS beta on TestFlight!",
+    description: "AI-powered receipt scanner that splits bills instantly. Download now on the App Store!",
     siteName: "Splitra",
     images: [
       {
@@ -69,7 +69,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Splitra - AI Receipt Scanner & Bill Splitting App",
-    description: "AI-powered receipt scanner that splits bills instantly. Join our iOS beta on TestFlight!",
+    description: "AI-powered receipt scanner that splits bills instantly. Download now on the App Store!",
     images: ["/og-image.png"],
     site: "@SplitraApp"
   },
@@ -103,7 +103,7 @@ export default function RootLayout({
     },
     "description": "AI-powered receipt scanner that splits bills instantly. Scan restaurant receipts, assign items to friends, and calculate who owes what in seconds.",
     "screenshot": "https://splitra.app/og-image.png",
-    "downloadUrl": "https://testflight.apple.com/join/VfvszCHu"
+    "downloadUrl": "https://apps.apple.com/au/app/splitra/id6744559322"
   };
 
   const organizationSchema = {

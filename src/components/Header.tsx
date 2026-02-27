@@ -60,12 +60,6 @@ export default function Header() {
             >
               How It Works
             </Link>
-            <Link 
-              href="https://testflight.apple.com/join/VfvszCHu" 
-              className="inline-flex items-center justify-center px-4 py-2 border border-transparent text-sm font-medium rounded-full text-white bg-[#34C759] hover:bg-[#2db14e] dark:bg-[#58D158] dark:hover:bg-[#4abb4a] transition duration-150 ease-in-out"
-            >
-              Download
-            </Link>
           </nav>
           
           <div className="md:hidden">

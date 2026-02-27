@@ -1,10 +1,12 @@
 'use client';
 
 import { useEffect } from 'react';
+import Image from 'next/image';
 import Features from '@/components/Features';
 import Hero from '@/components/Hero';
 import Steps from '@/components/Steps';
 import WaveDivider from '@/components/WaveDivider';
+import { APP_STORE_URL } from '@/lib/constants';
 
 export default function Home() {
   // Add smooth scroll behavior for anchor links
@@ -86,14 +88,15 @@ export default function Home() {
               Download Splitra today and never worry about complicated bill splitting again.
             </p>
             <a
-              href="https://testflight.apple.com/join/VfvszCHu"
-              className="group inline-flex items-center justify-center px-8 py-4 border border-transparent text-base font-medium rounded-full text-white bg-gradient-to-r from-[#34C759] to-[#2db14e] hover:from-[#2db14e] hover:to-[#28a745] dark:from-[#58D158] dark:to-[#4abb4a] dark:hover:from-[#4abb4a] dark:hover:to-[#3ca842] transition-all duration-300 ease-in-out shadow-lg hover:shadow-xl hover:-translate-y-0.5"
-              style={{ boxShadow: '0 10px 30px rgba(52, 199, 89, 0.3)' }}
+              href={APP_STORE_URL}
+              className="inline-block transition-opacity duration-200 hover:opacity-80"
             >
-              <svg className="w-6 h-6 mr-2 group-hover:scale-110 transition-transform duration-200" viewBox="0 0 24 24" fill="currentColor">
-                <path d="M16.5 3.5c-1.1 0-2.1.5-2.8 1.3L12 6.5 10.3 4.8c-.7-.8-1.7-1.3-2.8-1.3-2.2 0-4 1.8-4 4 0 .8.2 1.5.6 2.1.1.1.1.2.2.3l7.6 8.4c.1.1.2.1.3.1s.2 0 .3-.1l7.6-8.4c.1-.1.1-.2.2-.3.4-.6.6-1.3.6-2.1 0-2.2-1.8-4-4-4z" />
-              </svg>
-              Download on Test Flight
+              <Image
+                src="/images/app-store-badge.svg"
+                alt="Download on the App Store"
+                width={200}
+                height={67}
+              />
             </a>
           </div>
         </section>

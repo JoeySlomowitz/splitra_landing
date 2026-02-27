@@ -10,7 +10,7 @@ export default function PrivacyPolicy() {
 
                     <div className="prose dark:prose-invert max-w-none">
                         <p className="text-lg text-gray-600 dark:text-gray-400 mb-6">
-                            Last Updated: September 20, 2025
+                            Last Updated: February 27, 2026
                         </p>
 
                         <h2 className="text-2xl font-semibold text-gray-900 dark:text-white mt-8 mb-4">Introduction</h2>
@@ -52,7 +52,7 @@ export default function PrivacyPolicy() {
                             <li className="mb-2">Bill splitting calculations are performed within the app after receiving extracted data</li>
                         </ul>
                         <p className="text-gray-600 dark:text-gray-400 mb-4">
-                            Standard app functionality services provided by Apple (App Store downloads, TestFlight distribution, and crash reporting) are governed by Apple&apos;s privacy policy and remain unchanged.
+                            Standard app functionality services provided by Apple (App Store downloads and crash reporting) are governed by Apple&apos;s privacy policy and remain unchanged.
                         </p>
 
                         <h2 className="text-2xl font-semibold text-gray-900 dark:text-white mt-8 mb-4">Camera Permission</h2>
