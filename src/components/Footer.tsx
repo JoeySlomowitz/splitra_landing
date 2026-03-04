@@ -57,6 +57,17 @@ export default function Footer() {
           </div> */}
 
           <div>
+            <h3 className="text-sm font-semibold text-gray-900 dark:text-white uppercase tracking-wider">Support</h3>
+            <ul className="mt-4 space-y-2">
+              <li>
+                <Link href="/support" className="text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white">
+                  Help & Contact
+                </Link>
+              </li>
+            </ul>
+          </div>
+
+          <div>
             <h3 className="text-sm font-semibold text-gray-900 dark:text-white uppercase tracking-wider">Legal</h3>
             <ul className="mt-4 space-y-2">
               <li>
